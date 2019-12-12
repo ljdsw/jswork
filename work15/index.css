@@ -101,7 +101,7 @@
     text-align: right;
 }
 
-.cart-bttom,.cart-all,.cart-unall,.cart-agcheck {
+.cart-bottom,.cart-all,.cart-unall,.cart-agcheck {
     position: relative;
     top: 1px;
 }
