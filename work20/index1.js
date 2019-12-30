@@ -7,6 +7,6 @@ $('#toLeft').click(function () {
 $('#toAllRight').click(function () {
     $('#right>select').append($('#left>select>option'));
 });
-$('#toAllLedt').click(function () {
+$('#toAllLeft').click(function () {
     $('#left>select').append($('#right>select>option'));
 });
