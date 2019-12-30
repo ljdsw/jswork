@@ -293,6 +293,10 @@
                 $('#' + this.prefix + '_over_info').html('<p>您获胜了</p>');
                 $('#' + this.prefix + '_over').removeClass(this.prefix + '-hide');
             },
+            over: function(score) {
+                $('#' + this.prefix + '_over_info').html('<p>本次得分</p><p>' + score + '</p>');
+                $('#' + this.prefix + '_over').removeClass(this.prefix + '-hide');
+            },
             cleanNum: function() {
                 this.nums = {};
                 $('#' + this.prefix + '_over').addClass(this.prefix + '-hide');
